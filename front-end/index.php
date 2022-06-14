@@ -2,6 +2,13 @@
 
 <body class="h-screen max-h-full overflow-hidden bg-slate-200 ">
     <div class="h-full text-center flex flex-col justify-center items-center">
+        <h1 class="py-6 text-xl font-semibold">Equipe:
+            <ul>
+                <li>ARTUR SALVADOR TISCOSKI</li>
+                <li>KARINE CABRAL QUARANTANI</li>
+                <li>VINICIUS DE LIMA XAVIER</li>
+            </ul>
+        </h1>
         <h1 class="text-4xl font-semibold mb-8 text-cyan-700 drop-shadow-xl">CADASTRO DE PRODUTOS</h1>
         <form id="formCadastroProduto"
             class="sm:w-3/5 xl:w-1/3 flex flex-col gap-y-6 bg-white shadow-xl rounded-3xl p-6 px-4 xl:px-6">
