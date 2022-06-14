@@ -1,6 +1,6 @@
 <?php include('head.php'); ?>
 
-<body class="h-screen max-h-full overflow-hidden bg-slate-200 ">
+<body class="bg-slate-200 ">
     <div class="h-full text-center flex flex-col justify-center items-center">
         <h1 class="py-6 text-xl font-semibold">Equipe:
             <ul>
