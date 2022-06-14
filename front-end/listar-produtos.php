@@ -1,6 +1,6 @@
 <?php include('head.php'); ?>
 
-<body class="h-screen max-h-full overflow-hidden overflow-x-hidden bg-slate-200">
+<body class="bg-slate-200">
     <div class="py-20 text-center flex flex-col justify-center items-center">
         <h1 class="text-4xl md:text-5xl font-semibold mb-8 text-cyan-700 drop-shadow-xl">
             LISTAR PRODUTOS
