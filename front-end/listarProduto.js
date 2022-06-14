@@ -14,21 +14,21 @@ function listarProdutos(){
             const categoriaProduto = produtos.categoria
 
             const htmlProdutos = `
-            <div class="flex flex-col justify-center items-start shadow-xl p-4 rounded-xl bg-white text-left">
+            <div class="flex flex-col justify-between items-start shadow-xl p-4 rounded-xl bg-white text-left mb-4 xl:mb-0 h-full">
                 <span id="idProduto">
-                    Id: ${idProduto}
+                    <strong>Id: </strong> ${idProduto}
                 </span>
                 <span id="nomeProduto">
-                    Nome: ${nomeProduto}
+                    <strong> Nome: </strong> ${nomeProduto}}
                 </span>
                 <span id="descricaoProduto">
-                    Descrição: ${descricaoProduto}
+                    <strong> Descrição: </strong> ${descricaoProduto}
                 </span>
                 <span id="precoProduto">
-                    Preço: ${precoProduto}
+                    <strong> Preço: </strong> ${precoProduto}
                 </span>
                 <span id="categoriaProduto">
-                    Categoria: ${categoriaProduto}
+                    <strong> Categoria: </strong> ${categoriaProduto}
                 </span>
             </div>
             

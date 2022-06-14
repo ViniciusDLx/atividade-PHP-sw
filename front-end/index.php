@@ -1,9 +1,10 @@
 <?php include('head.php'); ?>
 
-<body class="h-screen max-h-full overflow-hidden bg-slate-200">
+<body class="h-screen max-h-full overflow-hidden bg-slate-200 ">
     <div class="h-full text-center flex flex-col justify-center items-center">
         <h1 class="text-4xl font-semibold mb-8 text-cyan-700 drop-shadow-xl">CADASTRO DE PRODUTOS</h1>
-        <form id="formCadastroProduto" class="w-1/3 flex flex-col gap-y-6 bg-white shadow-xl rounded-3xl p-6">
+        <form id="formCadastroProduto"
+            class="sm:w-3/5 xl:w-1/3 flex flex-col gap-y-6 bg-white shadow-xl rounded-3xl p-6 px-4 xl:px-6">
             <label for="nome" class="flex flex-col">
                 <span class="mr-auto text-lg font-semibold text-cyan-700">Nome: </span>
                 <input type="text" name="nome"
@@ -34,7 +35,7 @@
             </button>
         </form>
         <a href="./listar-produtos.php"
-            class="my-6 px-6 py-2 bg-cyan-700 w-1/5 mx-auto text-white text-lg rounded-3xl  ease-in-out duration-200 hover:scale-105 drop-shadow-xl">Listar
+            class="my-6 px-6 py-2 bg-cyan-700 xl:w-1/5 mx-auto text-white text-lg rounded-3xl  ease-in-out duration-200 hover:scale-105 drop-shadow-xl">Listar
             Produtos</a>
     </div>
 
