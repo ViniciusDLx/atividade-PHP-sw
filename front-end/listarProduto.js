@@ -25,7 +25,7 @@ function listarProdutos(){
                     <strong> Descrição: </strong> ${descricaoProduto}
                 </span>
                 <span id="precoProduto">
-                    <strong> Preço: </strong> ${precoProduto}
+                    <strong> Preço: </strong> R$ ${precoProduto}
                 </span>
                 <span id="categoriaProduto">
                     <strong> Categoria: </strong> ${categoriaProduto}
